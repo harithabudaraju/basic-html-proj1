@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+
+    <style>
+      nav {
+        height: 25px;
+        background-color: #9792928c;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        padding: 20px;
+      }
+      .slider {
+        height: 100px;
+        background-color: #f0e8e8ea;
+        padding: 20px;
+      }
+
+      .alignment {
+        text-align: center;
+        padding: 20px;
+      }
+
+      .boxone {
+        width: 30%;
+        height: 150px;
+        background-color: #888484;
+      }
+
+      .box-parent {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+      }
+
+      .boxtwo {
+        width: 30%;
+        height: 150px;
+        background-color: #888484;
+        margin-left: 30px;
+      }
+      .boxthree {
+        width: 30%;
+        height: 150px;
+        background-color: #888484;
+        margin-left: 30px;
+      }
+
+      .boxfive {
+        width: 30px;
+        height: 15px;
+        background-color: #d6dde2;
+        padding: 25px;
+      }
+
+      .boxfour {
+        height: 150px;
+        background-color: #e4d7d7;
+      }
+
+      .d-flex {
+        display: flex;
+        justify-content: center;
+      }
+      .d-flex p {
+        width: 42.5%;
+      }
+
+      footer {
+        text-align: center;
+        padding: 30px 0px;
+      }
+
+      .styled-button {
+        background-color: #888484;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: #fff;
+        font-weight: 600;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        Home | About | Contact |
+      </nav>
+    </header>
+    <div class="slider"></div>
+    <div>
+      <h3 class="alignment">Catch phrase</h3>
+    </div>
+    <!-- <table>
+      <tr>
+        <td>
+          <p>
+            <blockquote>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+          </blockquote>
+          </p>
+        
+        </td>
+        <td>
+          <p>
+            <blockquote>
+                TEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXTTEXT
+            a text
+          </blockquote>
+          </p>
+        </td>
+      </tr>
+    </table> -->
+
+    <div class="d-flex">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus
+        esse nulla amet tenetur alias nisi sapiente eius reiciendis sequi odit
+        vitae possimus, rerum optio aspernatur voluptatum accusamus?
+        Consectetur, sed!
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque natus
+        esse nulla amet tenetur alias nisi sapiente eius reiciendis sequi odit
+        vitae possimus, rerum optio aspernatur voluptatum accusamus?
+        Consectetur, sed!
+      </p>
+    </div>
+
+    <div class="box-parent">
+      <div class="boxone"></div>
+      <div class="boxtwo"></div>
+      <div class="boxthree"></div>
+    </div>
+
+    <footer class="boxfour">
+      <h3 class="color-dark">CATCH PHRASES</h3>
+      <button class="styled-button">BUTTON</button>
+    </footer>
+
+    <!-- <div class="boxfour">
+      <div class="boxfive">button</div>
+    </div> -->
+  </body>
+</html>
